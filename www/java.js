@@ -1,6 +1,4 @@
-/**
- * Created by h205p2 on 2/28/17.
- */
+
 function enterSub(data) {
     $('#images').html("");
     var sub = document.getElementById("SubReddit");
