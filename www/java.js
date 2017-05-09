@@ -16,8 +16,11 @@ function handler(result) {
     var x =
         [{"text": 'Go to Page 1', "url": 'page1.html'},
             {"text": 'Go to Page 2', "url": 'page2.html'}];
-    for(var i=0; i< x.length; i++) {
-        $("#thing").append("<li><a href='" + x[i].url + "'>" + x[i].text + "</a></li>")
+    for(var i=0; i< results.length; i++) {
+        $("#thing").append("<li><a href='" + results[i].url + "'>" + results[i].text + "</a></li>")
     }
     $( "#thing" ).listview( "refresh" );
 }
+
+
+
